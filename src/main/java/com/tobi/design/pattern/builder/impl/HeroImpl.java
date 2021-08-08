@@ -8,9 +8,6 @@ public class HeroImpl implements Hero {
     double hp;
 
     public HeroImpl(){
-        name = "unknown";
-        heroClass = "unknown";
-        hp = 0;
     }
 
 
