@@ -17,11 +17,31 @@ class HeroImplTest {
     }
 
     @Test
-    void testBuilderWithName(){
+    void builderWithName(){
         Hero firstHero = builder.setName("Joke")
         .build();
 
         assertEquals("Joke",firstHero.getName());
     }
+
+    @Test
+    void builderWithClass() {
+        Hero firstHero = builder.setHeroClass("Joker")
+                .build();
+        assertEquals("Joker", firstHero.getHeroClass());
+    }
+
+    @Test
+    void builderWithCompleteAttributes(){
+        Hero firstHero = builder.setHeroClass("Joker")
+                .setName("Joke")
+                .setHp(13d)
+        .build();
+        assertEquals("Joker",firstHero.getHeroClass());
+        assertEquals("Joke",firstHero.getName());
+        assertEquals(13d,firstHero.getHp());
+    }
+
+
 
 }

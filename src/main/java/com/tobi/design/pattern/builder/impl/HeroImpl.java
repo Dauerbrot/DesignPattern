@@ -8,6 +8,7 @@ public class HeroImpl implements Hero {
     double hp;
 
     public HeroImpl(){
+        //default constructor
     }
 
 
@@ -31,7 +32,7 @@ public class HeroImpl implements Hero {
 
     @Override
     public double getHp() {
-        return 0;
+        return hp;
     }
 
     public void setHp(double hp) {
