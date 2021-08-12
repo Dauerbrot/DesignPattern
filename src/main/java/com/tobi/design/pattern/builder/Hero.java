@@ -4,4 +4,6 @@ public interface Hero {
     double getHp();
     String getName();
     String getHeroClass();
+
+    String toString();
 }
