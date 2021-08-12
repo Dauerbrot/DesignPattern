@@ -1,0 +1,14 @@
+{
+    Heroes:[
+        {
+            Name:"Dude",
+            HeroClass:"Spearman",
+            Hp:"13"
+        },
+        {
+            Name:"Dudette",
+            HeroClass:"Clubber",
+            Hp:"14"
+        },
+    ]
+}

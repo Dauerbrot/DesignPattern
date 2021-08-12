@@ -6,4 +6,6 @@ package com.tobi.design.pattern.configuration;
 public interface Configuration {
 
     void setConfigName(String name);
+
+    Object getConfiguration();
 }

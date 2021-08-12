@@ -7,7 +7,7 @@ public class HeroImpl implements Hero {
     String heroClass;
     double hp;
 
-    public HeroImpl(){
+    public HeroImpl() {
         //default constructor
     }
 
@@ -37,5 +37,14 @@ public class HeroImpl implements Hero {
 
     public void setHp(double hp) {
         this.hp = hp;
+    }
+
+    @Override
+    public String toString() {
+        return "HeroImpl{" +
+                "name='" + name + '\'' +
+                ", heroClass='" + heroClass + '\'' +
+                ", hp=" + hp +
+                '}';
     }
 }
